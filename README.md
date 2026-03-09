@@ -13,7 +13,7 @@ Dieses Projekt umfasst die vollständige Restrukturierung und Professionalisieru
 - [X] Repository Setup
 - [x] Dokumentation
 - [x] Hauptseite
-- [ ] Ignoranz
+- [x] Ignoranz
 - [ ] Automatisierung
 - [ ] Strategie
 - [ ] Konflikt
