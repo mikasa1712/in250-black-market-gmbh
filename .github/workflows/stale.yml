@@ -1,4 +1,32 @@
 name: "Close stale issues and PRs"
 
 on:
+  schedule:
+    - cron: '0 0 * * *' # Läuft einmal täglich um Mitternacht [cite: 164]
   workflow_dispatch: # Erlaubt dir, die Action manuell zum Testen zu starten [cite: 171]
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+
+    steps:
+      - uses: actions/stale@v9
+        with:
+          # Einstellungen nach Vorgabe [cite: 166, 167]
+          days-before-stale: 30
+          days-before-close: 7
+          
+          # Nachrichten für Issues [cite: 168]
+          stale-issue-message: "Dieses Issue wurde seit 30 Tagen nicht bearbeitet und wird bald geschlossen."
+          close-issue-message: "Dieses Issue wurde aufgrund von Inaktivität geschlossen."
+          
+          # Nachrichten für Pull Requests [cite: 168]
+          stale-pr-message: "Dieser PR ist verwaist und wird in 7 Tagen automatisch geschlossen."
+          close-pr-message: "Dieser PR wurde geschlossen, da er 37 Tage lang unberührt blieb."
+          
+          # Labels markieren
+          stale-issue-label: "stale"
+          stale-pr-label: "stale"
