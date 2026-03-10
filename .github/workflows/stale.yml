@@ -2,8 +2,8 @@ name: "Close stale issues and PRs"
 
 on:
   schedule:
-    - [cite_start]cron: '0 0 * * *' # Läuft einmal täglich um Mitternacht [cite: 164]
-  [cite_start]workflow_dispatch: # Erlaubt dir, die Action manuell zum Testen zu starten [cite: 171]
+    - cron: '0 0 * * *' # Läuft einmal täglich um Mitternacht [cite: 164]
+  workflow_dispatch: # Erlaubt dir, die Action manuell zum Testen zu starten [cite: 171]
 
 jobs:
   stale:
