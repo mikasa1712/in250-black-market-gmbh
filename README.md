@@ -7,14 +7,16 @@ Dieses Projekt umfasst die vollständige Restrukturierung und Professionalisieru
 ![MIAU](./docs/MIAU.jpg)
 
 ## Weiterführende Dokumentationen
-- [01_verzeichnisstruktur](./docs/01_verzeichnisstruktur.md): Eine detaillierte Überischt aller Verzeichnisse
+- [01_verzeichnisstruktur](./docs/01_verzeichnisstruktur.md): Eine detaillierte Übersicht aller Verzeichnisse
+- [02_branch_strategie](./docs/02_branch_strategie.md): Eine detaillierte Anleitung zur Branch-Strategie
+- 
 
 ## Tasks
 - [X] Repository Setup
 - [x] Dokumentation
 - [x] Hauptseite
 - [x] Ignoranz
-- [ ] Automatisierung
+- [x] Automatisierung
 - [ ] Strategie
 - [ ] Konflikt
 - [ ] GitHub Pages
