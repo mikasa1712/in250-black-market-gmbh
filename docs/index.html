@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Market Software GmbH</title>
+    <style>
+        body {background: linear-gradient(135deg, #fceabb 0%, #f8f8f8 100%); background-attachment: fixed; 
+            margin: 0; font-family: sans-serif; min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;    
+        }
+
+        h1 {font-size: 2.5rem; 
+            color: #2c3e50; 
+            margin-bottom: 10px;
+        }
+
+        .sub-text {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin: 20px 0;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .emoji-wrap {
+            display: block;
+            font-size: 2rem;
+            margin-bottom: 5px;
+            
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0px); }
+        }
+
+        a { color: #d35400; 
+            text-decoration: none;
+            display: inline-block;
+            transition: 0.3s ease; 
+        }
+
+        a:hover {transform: scale(1.1);
+            color: #e67e22; 
+        }
+
+        .floating {
+            display: inline-block;
+            animation: float 3s ease-in-out infinite;
+            font-size: 100px;
+            cursor: pointer;
+        }
+
+        ul.pfoten-liste {list-style-type: none;
+            padding-left: 20px;
+        }
+
+        ul.pfoten-liste li::before {content: "🐾 ";
+        margin-right: 10px;
+        }
+
+        .line-wrapper{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin: 15px 0;
+            font-size: 1.2rem;
+        }
+
+        .emoji{
+            font-size: 1.8rem;
+        }
+
+        .gif-wrapper {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+}
+
+        .gif-wrapper img {
+            max-width: 250px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            padding: 20px 0;
+        }
+
+        .gallery img {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+            cursor: pointer; 
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+        }
+
+        details {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        summary {
+            list-style: none;
+            cursor: pointer;
+            padding: 10px;
+            outline: none;
+            user-select: none;
+        }
+
+        
+    </style>
+</head>
+
+
+<body>
+    <div class="floating">🐈‍⬛🐕🐈‍⬛</div>
+    <h1>🐾Willkommen bei Black Market Software GmbH🐾</h1>
+
+    <div class="sub-text">
+<div class="line-wrapper">
+        <span class="emoji-wrap">🐕</span>
+        <span>Bewacht von Shibas</span>
+        <span class="emoji-wrap">🐕</span>
+    </div>
+
+    <div class="line-wrapper">
+        <span class="emoji-wrap">🐈‍⬛</span>
+        <span>Programmiert und optimiert mit der Neugier einer Katze</span>
+        <span class="emoji-wrap">🐈‍⬛</span>
+    </div>
+    </div>
+    <details> 
+        <summary> Klicke hier für die geheimen Projektdetails</summary>
+            <ul class="pfoten-liste">
+                <li>Aufgabe 1: Repository Setup</li>
+                <li>Aufgabe 2: Dokumentation</li>
+                <li>Aufgabe 3: Hauptseite</li>
+                <li>Aufgabe 4: Ignoranz</li>
+                <li>Aufgabe 5: Automatisierung</li>
+                <li>Aufgabe 6: Strategie</li>
+                <li>Aufgabe 7: Konflikt</li>
+                <li>Aufgabe 8: Github Pages</li>
+                <li>Aufgabe 9: Abschluss</li>
+            </ul>
+    </details>
+    <br>
+    <div class="content-box">
+        <details>
+            <summary style="cursor: pointer;">
+                Klicke hier für Produktbilder🏍️
+            </summary>
+            
+            <div class="gallery">
+                <img src="..\bilder/IMG_0244.jpg" alt="Motorrad 1">
+                <img src="..\bilder/IMG_0245.jpg" alt="Motorrad 2">
+                <img src="..\bilder/IMG_0246.jpg" alt="Motorrad 3">
+                <img src="..\bilder/IMG_0247.jpg" alt="Motorrad 4">
+                <img src="..\bilder/IMG_0248.jpg" alt="Motorrad 5">
+            </div>
+        </details>
+    </div>
+
+<div class="gif-wrapper">
+    <img src="..\bilder\Cats_Shiba.gif" alt="Katze & Shiba">
+</div>
+
+</body>
+</html>

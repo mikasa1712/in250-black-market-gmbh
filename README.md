@@ -4,6 +4,9 @@ Willkommen im offiziellen Repository der Black Market Software GmbH. Nachdem die
 ## Projektbeschreibung
 Dieses Projekt umfasst die vollständige Restrukturierung und Professionalisierung unserer Software-Artefakte. Wir nutzen moderne Git-Workflows, um die Sicherheit unserer Kundendaten zu gewährleisten und die Effizienz unserer Gilde zu steigern
 
+## Homepage
+https://mikasa1712.github.io/in250-black-market-gmbh/
+
 ![MIAU](./docs/MIAU.jpg)
 
 ## Weiterführende Dokumentationen
@@ -17,7 +20,7 @@ Dieses Projekt umfasst die vollständige Restrukturierung und Professionalisieru
 - [x] Hauptseite
 - [x] Ignoranz
 - [x] Automatisierung
-- [ ] Strategie
-- [ ] Konflikt
-- [ ] GitHub Pages
-- [ ] Abschluss
+- [x] Strategie
+- [x] Konflikt
+- [x] GitHub Pages
+- [x] Abschluss
