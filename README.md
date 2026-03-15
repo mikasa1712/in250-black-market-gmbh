@@ -12,7 +12,7 @@ https://mikasa1712.github.io/in250-black-market-gmbh/
 ## Weiterführende Dokumentationen
 - [01_verzeichnisstruktur](./docs/01_verzeichnisstruktur.md): Eine detaillierte Übersicht aller Verzeichnisse
 - [02_branch_strategie](./docs/02_branch_strategie.md): Eine detaillierte Anleitung zur Branch-Strategie
-- 
+- [SECURITY.md](SECURITY.md): Eine detaillierte Anleitung bei und für Fehlermeldungen
 
 ## Tasks
 - [X] Repository Setup
